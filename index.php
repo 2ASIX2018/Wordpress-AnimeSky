@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <main class="wrap">
-  <section class="content-area content-thin col-md-9" style="float:left; margin-top:50px;">
+  <section class="content-area content-thin col-md-12" style="float:left; margin-top:20px;">
 <?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
       <article class="article-loop">
         <header>

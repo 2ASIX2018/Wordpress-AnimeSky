@@ -13,7 +13,7 @@ global $post;
             the_post();
 ?>
 
-        <div class="col-md-4">
+        <div class="col-md-12">
 <h2><?php the_title(); ?></h2>
 <p><?php the_content(); ?></p>
 
